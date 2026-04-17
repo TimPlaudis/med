@@ -8,8 +8,10 @@ export default function RootLayout({
       <body
         style={{
           margin: 0,
-          fontFamily: "Arial, sans-serif",
-          background: "#f6f6f6",
+          fontFamily:
+            "Inter, system-ui, -apple-system, Arial, sans-serif",
+          background: "#f4f6f8",
+          color: "#111",
         }}
       >
         {children}
